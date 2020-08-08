@@ -1,0 +1,9 @@
+GET http://localhost:8080/best-stories HTTP/1.1
+
+###
+
+GET https://hacker-news.firebaseio.com/v0/item/8863.json HTTP/1.1
+
+###
+
+GET http://localhost:8080/comments?storyId=2921506 HTTP/1.1
