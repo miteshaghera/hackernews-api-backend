@@ -15,6 +15,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.cache.annotation.Cacheable;
 import org.springframework.stereotype.Service;
 
+import java.util.Arrays;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -44,7 +45,6 @@ public class CommentServiceImpl implements CommentService {
     @Override
     @Cacheable(value = "comments", key = "#storyId")
     public List<Comment> searchComments(long storyId) {
-        Map<Item, Integer> mapVar = new HashMap<>();
         Item story = itemRepository.getItem(storyId);
         if (story == null) {
             throw new StoryNotFoundException();
@@ -71,7 +71,7 @@ public class CommentServiceImpl implements CommentService {
     }
 
     private Integer countComments(Item item) {
-        if (item.getKids() == null) {
+        if (item.getKids() == null || item.getKids().length == 0) {
             return 1;
         } else {
             int count = 0;

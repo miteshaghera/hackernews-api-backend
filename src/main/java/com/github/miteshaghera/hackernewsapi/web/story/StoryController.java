@@ -1,6 +1,5 @@
 package com.github.miteshaghera.hackernewsapi.web.story;
 
-import com.github.miteshaghera.hackernewsapi.model.Item;
 import com.github.miteshaghera.hackernewsapi.model.Story;
 import com.github.miteshaghera.hackernewsapi.service.StoryService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -22,11 +21,12 @@ public class StoryController {
 
     @RequestMapping("/best-stories")
     public List<Story> bestStories() {
-        return storyService.bestStories();
+        pastStories = storyService.bestStories();
+        return pastStories;
     }
 
     @RequestMapping("/past-stories")
-    public List<Item> pastStories() {
-        return List.of();
+    public List<Story> pastStories() {
+        return pastStories;
     }
 }

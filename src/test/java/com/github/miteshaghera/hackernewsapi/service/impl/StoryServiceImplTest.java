@@ -7,7 +7,10 @@ import com.github.miteshaghera.hackernewsapi.repository.ItemRepository;
 import com.github.miteshaghera.hackernewsapi.repository.StoryRepository;
 import com.github.miteshaghera.hackernewsapi.repository.http.HttpItemRepository;
 import com.github.miteshaghera.hackernewsapi.repository.http.HttpStoryRepository;
-import org.junit.jupiter.api.*;
+import org.junit.jupiter.api.MethodOrderer;
+import org.junit.jupiter.api.Order;
+import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.TestMethodOrder;
 import org.mockito.ArgumentMatchers;
 import org.mockito.InjectMocks;
 import org.mockito.Mock;
@@ -21,10 +24,10 @@ import java.util.Arrays;
 import java.util.List;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertTrue;
 
 @SpringBootTest
 @TestMethodOrder(MethodOrderer.OrderAnnotation.class)
-@TestInstance(TestInstance.Lifecycle.PER_CLASS)
 class StoryServiceImplTest {
 
     private static final int MAX_STORIES_COUNT = 3;
@@ -67,7 +70,9 @@ class StoryServiceImplTest {
                             .findFirst().orElse(null));
 
             List<Story> output = storyService.bestStories();
-            assertEquals(MAX_STORIES_COUNT, output.size());
+            assertEquals(StoryServiceImpl.MAX_STORIES_COUNT, output.size());
+            assertTrue(output.stream().allMatch(comment ->
+                    Arrays.stream(items).anyMatch(item -> item.getId() == comment.getId())));
         } catch (IOException e) {
             e.printStackTrace();
         }

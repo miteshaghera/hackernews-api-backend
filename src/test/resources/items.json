@@ -1,0 +1,191 @@
+[
+  {
+    "by": "pg",
+    "id": 121016,
+    "kids": [
+      121349,
+      121108,
+      121303,
+      121154
+    ],
+    "parent": 121003,
+    "text": "You can see two spikes in unique visitors due to Arc here:<p><a href=\"http://ycombinator.com/images/news.yc.1year.png\" rel=\"nofollow\">http://ycombinator.com/images/news.yc.1year.png</a><p>There was a spike in Jan when I said Arc was imminent, and then another when it came out.  But if you squint your eyes and look at the whole curve, the underlying growth rate seems pretty constant.<p>In other words, while it's true we've been getting a lot of new users lately, this probably would have happened anyway.<p>What to do about that growth is another matter.  I think a lot of users are alarmed at the sight of fluff links on the front page because they remember what that meant for other sites in the past.  But the current fluff link (<a href=\"http://news.ycombinator.com/item?id=120816\" rel=\"nofollow\">http://news.ycombinator.com/item?id=120816</a>) was submitted by a long-time user, and there are no signs of statistical weirdness in the votes on it.  I.e. statistically the users who upvoted that story are no different from the ones upvoting the other top stories.  So at the moment I'm still hopeful that the bad signs are false alarms.<p>I have a hunch that the way to fend off the hordes of 14 year olds is to keep up the quality of the stories on the front page.  Then if they come across this site they'll decide it's boring and leave.",
+    "time": 1203648734,
+    "type": "comment"
+  },
+  {
+    "by": "h34t",
+    "id": 121349,
+    "kids": [
+      121471
+    ],
+    "parent": 121016,
+    "text": "I'm not sure <i>how</i> to fight fluff, but I think there's a strong case to be rather zealous about it.<p>It seems obvious that the direction of these communities is highly reflexive, in that users are determined by content, which is determined by users, and on and on. Neither users nor content is an \"independent variable\"... they depend on each other.<p>So there's no reason to assume stability in the system. A big influx of new users + a few badly timed fluffs, and things could roll downhill in escalating fashion (the fluffs attract a few extra fluffers from the new users, who then produce more fluff, which attracts a few extra fluffers from yet-new-users, ...)",
+    "time": 1203696961,
+    "type": "comment"
+  },
+  {
+    "by": "Kaizyn",
+    "id": 121471,
+    "kids": [
+      121565,
+      121522
+    ],
+    "parent": 121349,
+    "text": "May I suggest that fluff can be fought by NOT upvoting fluff links.",
+    "time": 1203707133,
+    "type": "comment"
+  },
+  {
+    "by": "pg",
+    "id": 121565,
+    "parent": 121471,
+    "text": "That's hard.  But the opposite strategy might work: upvote non-fluff links.  Only a few percent of the users of a site like this ever vote.  So if the \"silent majority\" who never vote made even a slight effort to vote up non-fluff stories as a way to protect the site, that would have a real effect.",
+    "time": 1203713841,
+    "type": "comment",
+    "kids": []
+  },
+  {
+    "by": "h34t",
+    "id": 121522,
+    "parent": 121471,
+    "text": "I agree entirely, but in a limited way.<p>That's sort of like saying that the way to change policies in a democracy is by voting; it's true, but as an individual (or someone involved in setting the rules/administering the technology of the community) there's a lot more that can be done to change a system than casting the single vote to which your citizenship/membership entitles you to.<p>It's these other measures that I haven't got a good grasp on, and am curious about.",
+    "time": 1203711631,
+    "type": "comment",
+    "kids": []
+  },
+  {
+    "by": "cstejerean",
+    "id": 121108,
+    "kids": [
+      121132
+    ],
+    "parent": 121016,
+    "text": "I upvoted the current \"fluff link\". I found it entertaining and at least somewhat on topic (more than the post about Castro). Personally I'm more concerned that the link about 37signals releasing numbers was still on the front page today. Ok, it was news, I read it and it was relevant. but it stopped being relevant after 5 minutes.<p>I think the solution is not to keep the inevitable influx of stories that will annoy some long time users, but to figure out a way to show users only stories they care about.",
+    "time": 1203661434,
+    "type": "comment"
+  },
+  {
+    "by": "matstc",
+    "id": 121132,
+    "kids": [
+      121286
+    ],
+    "parent": 121108,
+    "text": "I'm not sure I understand your concern about the 37signals article: 99% of articles will be irrelevant once you've read them.<p>Also do you not think the top stories should be the same for everyone?   It's the easiest way to keep the community focused and self-serving.",
+    "time": 1203663748,
+    "type": "comment"
+  },
+  {
+    "by": "cstejerean",
+    "id": 121286,
+    "kids": [
+      122395
+    ],
+    "parent": 121132,
+    "text": "for some of the stories I want to follow the conversation. But I check HN quite often and it annoys me when I see the same stories in the front page that I read the day before.",
+    "time": 1203692143,
+    "type": "comment"
+  },
+  {
+    "by": "kingnothing",
+    "id": 122395,
+    "parent": 121286,
+    "text": "Check out the new page and vote some of those stories up in order to help get them to the front page.",
+    "time": 1203836289,
+    "type": "comment",
+    "kids": []
+  },
+  {
+    "by": "mightybyte",
+    "id": 121303,
+    "parent": 121016,
+    "text": "At the risk of stating the obvious, the most important factor determining the quality of stories on is how you define quality.  The usual definition is to equate quality to popularity.  This is problematic since the hordes of 14 year olds outnumber those of us who like the current quality.  Popularity does have some nice properties, so you probably don't want to ax it completely...just give priority to the right subset of people.",
+    "time": 1203693608,
+    "type": "comment",
+    "kids": []
+  },
+  {
+    "by": "wehriam",
+    "id": 121154,
+    "parent": 121016,
+    "text": "I, for one, welcome our new 14 year old overlords.<p>On a more serious note, I want people interested in Arc here. People after top ten lists and Kevin Rose gossip, not so much. (I still love Digg though. No need to be snooty.)",
+    "time": 1203668416,
+    "type": "comment",
+    "kids": []
+  },
+  {
+    "by": "yters",
+    "id": 121109,
+    "kids": [
+      122396,
+      121134
+    ],
+    "parent": 121003,
+    "text": "Does having 3 main hacker sites (this, proggit, /.) imply the retreat from 14 year olds will reach a stable equilibrium, and end the eternal September problem?\n<a href=\"http://en.wikipedia.org/wiki/Eternal_September\" rel=\"nofollow\">http://en.wikipedia.org/wiki/Eternal_September</a><p>There are only so many 14 year olds in the world, so at some point the rate of change in users will be 0, incoming equals outgoing.",
+    "time": 1203661550,
+    "type": "comment"
+  },
+  {
+    "by": "kingnothing",
+    "id": 122396,
+    "parent": 121109,
+    "text": "I think each of the three sites listed has a slightly different focus. Slashdot has a wide \"nerd\" focus, from computers to astronomy, and typically seems to follow  major industry happenings. HN is focused on the boot strapping entrepreneur-hacker. programming.reddit seems more interested in actual programming, techniques, languages, etc. Sure, they all overlap the same general market, but each one caters to a different niche. I think as more communities pop up, catering to more and more niches, we'll notice less 14 year olds because they will be spread more thinly, but they'll still be there.",
+    "time": 1203836627,
+    "type": "comment",
+    "kids": []
+  },
+  {
+    "deleted": true,
+    "id": 121134,
+    "parent": 121109,
+    "time": 1203664314,
+    "type": "comment",
+    "kids": []
+  },
+  {
+    "by": "andreyf",
+    "id": 121168,
+    "kids": [
+      121216,
+      121242
+    ],
+    "parent": 121003,
+    "text": "Why not just scale the weight given to a vote based on the voter's karma? Or would this encourage group think?",
+    "time": 1203670226,
+    "type": "comment"
+  },
+  {
+    "by": "bayareaguy",
+    "id": 121216,
+    "parent": 121168,
+    "text": "This could work, but I'd recommend scaling to sqrt(karma) or log10(karma) to offset the network effect a little.",
+    "time": 1203682269,
+    "type": "comment",
+    "kids": []
+  },
+  {
+    "by": "mightybyte",
+    "id": 121242,
+    "parent": 121168,
+    "text": "I was thinking along the same lines.  You could scale based on karma, or even something similar...like when the account was created or how many times it has logged in.<p>It would encourage group think to a degree, but since we like the community the way it is now, that would probably be a feature instead of a bug.",
+    "time": 1203687144,
+    "type": "comment",
+    "kids": []
+  },
+  {
+    "by": "tel",
+    "descendants": 16,
+    "id": 121003,
+    "kids": [
+      121016,
+      121109,
+      121168
+    ],
+    "score": 25,
+    "text": "<i>or</i> HN: the Next Iteration<p>I get the impression that with Arc being released a lot of people who never had time for HN before are suddenly dropping in more often. (PG: what are the numbers on this? I'm envisioning a spike.)<p>Not to say that isn't great, but I'm wary of Diggification. Between links comparing programming to sex and a flurry of gratuitous, ostentatious  adjectives in the headlines it's a bit concerning.<p>80% of the stuff that makes the front page is still pretty awesome, but what's in place to keep the signal/noise ratio high? Does the HN model still work as the community scales? What's in store for (++ HN)?",
+    "time": 1203647620,
+    "title": "Ask HN: The Arc Effect",
+    "type": "story"
+  }
+]
